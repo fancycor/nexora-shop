@@ -1,0 +1,6 @@
+{
+  "name": "Nexora Shop",
+  "description": "Modern Bangladeshi e-commerce store with 6 featured products, smart cart, delivery charge calculator, and Cash on Delivery checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

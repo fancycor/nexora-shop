@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexora Shop - Modern E-Commerce Bangladesh</title>
+    <meta name="description" content="Modern Bangladeshi e-commerce store with 6 featured products, smart cart, delivery charge calculator, and Cash on Delivery checkout." />
+    <meta property="og:title" content="Nexora Shop - Modern E-Commerce Bangladesh" />
+    <meta property="og:description" content="Modern Bangladeshi e-commerce store with 6 featured products, smart cart, delivery charge calculator, and Cash on Delivery checkout." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Gracefully suppress sandbox Vite HMR WebSocket connection errors in iframe
+      window.addEventListener('error', function(event) {
+        if (event && (event.message?.includes('WebSocket') || event.filename?.includes('@vite/client'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event && (event.reason?.message?.includes('WebSocket') || event.reason?.stack?.includes('@vite/client'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
